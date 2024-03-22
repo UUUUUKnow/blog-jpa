@@ -123,6 +123,6 @@ class BlogControllerTest {
         assertThat(updatedArticle.getTitle()).isEqualTo(request.getTitle());
         assertThat(updatedArticle.getContent()).isEqualTo(request.getContent());
 
-        // 코드 변경사항 가정(테스트 코드 삭제)
+        // test 코드 수정 가정
     }
 }
